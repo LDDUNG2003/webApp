@@ -10,9 +10,9 @@
     <?php include './htmlFile/cssLink.html'?>
 </head>
 <body>
-    <!-- <div id="preloder">
+    <div id="preloder">
         <div class="loader"></div>
-    </div> -->
+    </div>
     <?php include './htmlFile/header.html'?>
     <?php include './htmlFile/menusection.html'?>
     <section class="categories">
@@ -26,6 +26,15 @@
                             </div>
                         </div>
                     <?php endforeach?>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                        <?php ?>
                 </div>
             </div>
         </div>
